@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres-db-vpn2
+    restart: always
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    networks:
+      - vpn-panel-network2
+
+  redis:
+    image: redis:8
+    container_name: redis-cache-vpn2
+    restart: always
+    ports:
+      - "${REDIS_PORT}:6379"
+    volumes:
+      - redisdata:/data
+    networks:
+      - vpn-panel-network2
+
+volumes:
+  pgdata:
+  redisdata:
+
+networks:
+  vpn-panel-network2:
+    driver: bridge
