@@ -23,6 +23,7 @@
       <change afterPath="$PROJECT_DIR$/types/type-api/types.api.login.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/types/type-event/event.bot.login.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/types/type-redis/type.redis.auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/api.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/dto.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/api/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/handler/handlers.go" afterDir="false" />
@@ -36,13 +37,16 @@
       <change beforePath="$PROJECT_DIR$/config/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dto/response.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/engine/engine.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/middleware/session_auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/middleware/session_auth.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/models.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/crypto.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/service/service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/storage/interfaces.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/store.go" beforeDir="false" afterPath="$PROJECT_DIR$/storage/store.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/user_repository.go" beforeDir="false" afterPath="$PROJECT_DIR$/storage/user_repository.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
